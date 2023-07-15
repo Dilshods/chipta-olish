@@ -125,6 +125,8 @@ function Header() {
               fontSize={"9vw"}
               fontWeight={700}
               alignItems={"center"}
+              maxWidth={"50%"}
+              margin={"auto"}
             >
               It Matters Who You Travel With
             </Typography>
