@@ -1,7 +1,17 @@
 import React, { useState } from "react";
-import { Box, Link, Typography } from "@mui/material";
+import {
+  Box,
+  Link,
+  ThemeProvider,
+  Typography,
+  responsiveFontSizes,
+  unstable_createMuiStrictModeTheme,
+} from "@mui/material";
 import "./header.css";
 import MenuIcon from "@mui/icons-material/Menu";
+
+let theme = unstable_createMuiStrictModeTheme();
+theme = responsiveFontSizes(theme);
 
 function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -109,21 +119,15 @@ function Header() {
           </header>
         </Box>
         <Box className="header-title">
-          <Typography
-            variant="h2"
-            style={{
-              width: "50vw",
-              margin: "auto",
-              fontSize: "72px",
-              fontWeight: "700",
-            }}
-          >
-            It Matters Who You Travel With
-          </Typography>
-          <Typography variant="h6">
-            We want you to feel confident in the travel experience you will have
-            with us.
-          </Typography>
+          <ThemeProvider theme={theme}>
+            <Typography variant="h2" fontSize={"11vw"} fontWeight={600}>
+              It Matters Who You Travel With
+            </Typography>
+            <Typography variant="h6" fontSize={"4vw"}>
+              We want you to feel confident in the travel experience you will
+              have with us.
+            </Typography>
+          </ThemeProvider>
         </Box>
       </Box>
     </>

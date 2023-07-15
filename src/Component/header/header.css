@@ -5,6 +5,7 @@
   left: 0;
   height: 100vh;
   width: 100%;
+  background-position: center;
 }
 .header-menu-title {
   width: 90%;
@@ -25,14 +26,10 @@
 }
 
 .header-title {
-  width: 90%;
+  width: 50vw !important;
   margin: auto;
   color: #fff;
   text-align: center;
-  font-family: Montserrat;
-  font-size: 72px !important;
-  font-style: normal;
-  line-height: normal;
   top: 150px;
   position: relative;
 }
