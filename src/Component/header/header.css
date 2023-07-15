@@ -1,0 +1,144 @@
+.header {
+  background: linear-gradient(180deg, rgba(90, 88, 88, 0.055) 70%, #222831 100%),
+    url(../../../public/image/Rectangle\ 64.png) no-repeat;
+  background-size: cover;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+.header-menu-title {
+  width: 90%;
+  margin: auto;
+}
+
+.home,
+.trip,
+.about,
+.support,
+.travel {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin: 0px 10px !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.header-title {
+  width: 90%;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 72px !important;
+  font-style: normal;
+  line-height: normal;
+  top: 150px;
+  position: relative;
+}
+
+.setsearch {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 39px;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+.mob__search .setsearch:hover {
+  background-color: #3269b0;
+}
+
+/* ////////// */
+
+.paddingSmall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 56px;
+}
+.logonew {
+  width: 100px;
+  height: 40px;
+  display: flex;
+}
+
+header {
+  /* background-color: #000; */
+  color: #fff;
+}
+
+.barIcon {
+  font-size: 25px;
+  background: none;
+  color: #fff;
+  display: none;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .head .ad {
+    display: none;
+  }
+  header .icon {
+    display: none;
+  }
+  header .flex {
+    display: none;
+  }
+  .barIcon {
+    display: block;
+    cursor: pointer;
+  }
+  header .navbar {
+    position: absolute;
+    display: block;
+    background: rgba(0, 0, 0, 0.35);
+    left: 0;
+    top: 21%;
+    transition: 0.5s;
+    width: 80%;
+    z-index: 5;
+    cursor: pointer;
+  }
+  header .navbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  header ul a {
+    margin-bottom: 30px;
+  }
+  header .setsearch {
+    display: none;
+  }
+}
+
+/* ///// mobilni resorch */
+.mob__search-input:hover {
+  cursor: pointer;
+}
+
+.mob__search-input {
+  width: 150px;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .logonew {
+    margin-right: auto;
+    right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-title {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}

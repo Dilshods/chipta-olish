@@ -1,0 +1,10 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    180deg,
+    rgba(34, 40, 49, 0) 0%,
+    #222831 100%
+  );
+}
