@@ -13,12 +13,16 @@
   color: aliceblue;
   padding: 43px 0 133px 0;
 }
-.footer-chaild {
-  .box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+
+.explore,
+.comp,
+.term,
+.help,
+.touch,
+.logotip {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .footer-chaild a {
