@@ -120,7 +120,12 @@ function Header() {
         </Box>
         <Box className="header-title">
           <ThemeProvider theme={theme}>
-            <Typography variant="h2" fontSize={"11vw"} fontWeight={600}>
+            <Typography
+              variant="h2"
+              fontSize={"9vw"}
+              fontWeight={700}
+              alignItems={"center"}
+            >
               It Matters Who You Travel With
             </Typography>
             <Typography variant="h6" fontSize={"4vw"}>
