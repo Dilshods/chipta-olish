@@ -132,10 +132,21 @@ header {
     right: 0;
   }
 }
+@media screen and (max-width: 1024px) {
+  .header-title h2 {
+    width: 60%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header-title h2 {
+    width: 60%;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 768px) {
-  .header-title {
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 700;
+  .header-title h2 {
+    width: 100%;
+    text-align: center;
   }
 }
